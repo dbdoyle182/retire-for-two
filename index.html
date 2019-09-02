@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RetireFor2Minutes</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/0177cadc9a.js"></script>
+</head>
+<body class="page-background">
+    <video autoplay loop id="myVideo">
+        <source src="./BeachVideo.mp4">
+    </video>
+    <div class="top-bar">
+        <!-- <div class="link">
+            <p>VestCred</p>
+        </div> -->
+        <div class="audio-button">
+            <i id="volume-up" class="fas fa-volume-up"></i>
+            <i id="volume-mute" class="fas fa-volume-mute"></i>
+        </div>
+    </div>
+    <div class="middle-bar">
+        <div class="content-box">
+            <div class="title">
+                <p>Retire for 2 Minutes</p>
+            </div>
+            <div class="timer">
+                <p id="time"><span id="minutes">2</span>:<span id="seconds">00</span></p>
+                <button class="reset-btn" id="reset-btn"><p class="btn-text">Retire Again?</p></button>
+            </div>
+            <div class="subtitle">
+                <p>Press the <b>spacebar</b> to listen.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-bar">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

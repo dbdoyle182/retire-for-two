@@ -1,0 +1,107 @@
+/* Page Styles */
+
+.page-background {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Top Row Styles */
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.link p {
+    margin: 0;
+}
+
+.audio-button {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+/* Middle Row Styles */
+
+.middle-bar {
+    margin: 15vh 0vw;
+    width: 45%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-bar p {
+    font-family: "Open Sans"
+}
+
+.content-box {
+    align-self: center;
+}
+
+.title, .timer, .subtitle {
+    text-align: center;
+    padding: 15px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.timer {
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 12px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+56&1+53,0+70 */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 53%, rgba(255,255,255,0.82) 56%, rgba(255,255,255,0) 70%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 53%,rgba(255,255,255,0.82) 56%,rgba(255,255,255,0) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 53%,rgba(255,255,255,0.82) 56%,rgba(255,255,255,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    margin: 1vh 5vw
+}
+
+.reset-btn {
+    display: none;
+    border-radius: 15px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+}
+
+.btn-text {
+    color: black;
+    font-family: "Open Sans";
+}
+
+#volume-up {
+    display: none;
+}
+
+/* Bottom Row Styles */
+
+.bottom-bar {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Video Styles */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -100
+  }
