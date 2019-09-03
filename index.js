@@ -92,12 +92,13 @@ function reset() {
 // Play audio
 
 function toggleAudio () {
-    if (video.volume > 0) {
-        video.volume = 0;
+    console.log(video.muted)
+    if (!video.muted) {
+        video.muted = true;
         volumeMute.style.display = "block";
         volumeOn.style.display = "none";
     } else {
-        video.volume = .8;
+        video.muted = false;
         volumeMute.style.display = "none";
         volumeOn.style.display = "block";
     }
